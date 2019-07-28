@@ -1,0 +1,23 @@
+browser: chrome
+screenshot_location: reports/screenshots
+base_url: https://www.thetrainline.com/
+switches:
+  - disable-infobars
+  - headless
+  - disable-gpu
+  - disable-dev-shm-usage
+  - no-sandbox
+  - screen-size=1200x800
+  
+prefs:
+  credentials_enable_service: false
+  profile:
+    password_manager_enabled: false
+  download:
+    default_directory: downloads/
+
+dimensions:
+  horizontal: 1440
+  vertical: 873
+implicit_wait: 10
+
