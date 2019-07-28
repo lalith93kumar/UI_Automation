@@ -1,7 +1,7 @@
 URL : https://www.thetrainline.com/
 Instruction:
 Open the terminal & follow the below instruction
-	Download the repo - https://github.com/lalith93kumar/rspec_test.git
+	Download the repo - https://github.com/lalith93kumar/UI_Automation.git
 	Download chromedriver Latest version 3.14
 	Move chromedriver into bin folder
 	Move to the directory - cd Selenium
